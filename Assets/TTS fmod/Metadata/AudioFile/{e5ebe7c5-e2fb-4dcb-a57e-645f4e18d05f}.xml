@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.09.00">
+    <object class="AudioFile" id="{e5ebe7c5-e2fb-4dcb-a57e-645f4e18d05f}">
+        <property name="assetPath">
+            <value>newspaper1.WAV</value>
+        </property>
+        <property name="isStreaming">
+            <value>true</value>
+        </property>
+        <property name="frequencyInKHz">
+            <value>48</value>
+        </property>
+        <property name="channelCount">
+            <value>2</value>
+        </property>
+        <property name="length">
+            <value>18.149333333333335</value>
+        </property>
+        <relationship name="masterAssetFolder">
+            <destination>{b11253fb-833e-40e4-8558-b7af705efb79}</destination>
+        </relationship>
+    </object>
+</objects>

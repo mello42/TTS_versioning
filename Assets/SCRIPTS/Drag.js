@@ -1,5 +1,4 @@
 ﻿#pragma strict
- var normalCollisionCount = 1;
  var spring = 50.0;
  var damper = 5.0;
  var drag = 10.0;
@@ -15,7 +14,7 @@
 
   function Start(){
   	     mainCamera = FindCamera();
-  	     //Screen.lockCursor = true;
+  	    Screen.lockCursor = true;
 
   }
 
@@ -30,7 +29,8 @@
   
      // We need to actually hit an object
      var hit : RaycastHit;
-     if (!Physics.Raycast(mainCamera.ScreenPointToRay(Input.mousePosition),  hit, 100))
+     var ray = new Ray(Camera.main.transform.position, Camera.main.transform.forward);
+     if (!Physics.Raycast(ray,  hit, 100))
          return;
      // We need to hit a rigidbody that is not kinematic
      if (!hit.rigidbody || hit.rigidbody.isKinematic)

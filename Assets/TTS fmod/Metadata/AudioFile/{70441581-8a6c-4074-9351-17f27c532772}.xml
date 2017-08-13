@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.09.00">
+    <object class="AudioFile" id="{70441581-8a6c-4074-9351-17f27c532772}">
+        <property name="assetPath">
+            <value>5AK.wav</value>
+        </property>
+        <property name="frequencyInKHz">
+            <value>48</value>
+        </property>
+        <property name="channelCount">
+            <value>2</value>
+        </property>
+        <property name="length">
+            <value>6.0285208333333333</value>
+        </property>
+        <relationship name="masterAssetFolder">
+            <destination>{b11253fb-833e-40e4-8558-b7af705efb79}</destination>
+        </relationship>
+    </object>
+</objects>

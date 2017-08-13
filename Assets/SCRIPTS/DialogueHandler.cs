@@ -4,23 +4,18 @@ using UnityEngine;
 
 [System.Serializable]
 public class AudioCollection {
-	public FMOD_StudioEventEmitter item_sound;
-	public FMOD_StudioEventEmitter V;
-	public FMOD_StudioEventEmitter AK;
-	public FMOD_StudioEventEmitter KD;
-	public FMOD_StudioEventEmitter AD;
-	public FMOD_StudioEventEmitter A;
-	public FMOD_StudioEventEmitter K;
-	public FMOD_StudioEventEmitter D;
+	//public FMODUnity.StudioEventEmitter item_sound;
+	public FMODUnity.StudioEventEmitter V;
+	public FMODUnity.StudioEventEmitter AK;
+	public FMODUnity.StudioEventEmitter KD;
+	public FMODUnity.StudioEventEmitter AD;
+	public FMODUnity.StudioEventEmitter A;
+	public FMODUnity.StudioEventEmitter K;
+	public FMODUnity.StudioEventEmitter D;
 }
 
 public class DialogueHandler : MonoBehaviour {
-	
-
 
 	public AudioCollection ItemAudio;
 
-	void Update () {
-		
-	}
 }
